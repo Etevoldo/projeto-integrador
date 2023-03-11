@@ -73,7 +73,6 @@ nav:after{
 
 .produtos {
     padding-top: 10%;
-    text-decoration: none;
 }
 
 #box {
@@ -81,17 +80,33 @@ nav:after{
     float: left;
     padding-left: 6%;
 }
-#box:hover {
+
+#p_espaco{
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    font-size: 1em;
+}
+
+#p_espaco img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+#p_espaco a h1{
+    text-align: center;
+    text-decoration:none;
+    font-size: 2em;
+}
+#p_espaco:hover {
     background-color: #b0ff8b;
 }
 
-#box a img{
-    width: 30%;
-}
-
-.produtos custo {
-    font-size: 3em;
-    font-weight: 500;
+#custo{
+    font-size: 1.5em;
 }
 
 .informacao {
