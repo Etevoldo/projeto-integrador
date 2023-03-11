@@ -66,8 +66,50 @@ nav:after{
     margin:0;
 }
 
-.nav-container  li{
-    list-none:none;
+.nav-container li{
     float:left;
     margin: 0 15px;
+}
+
+#produtos img{
+    width: 35%;
+}
+
+#produtos p{
+    font-size: 1.5em;
+}
+
+#produtos h1{
+    font-size: 3em;
+}
+
+#esquerda {
+    padding-top: 10%;
+    text-decoration: none;
+    padding-left: 6%;
+    width: 30%;
+    float: left;
+
+}
+
+#centro {
+    padding-top: 10%;
+    text-decoration: none;
+    padding-left: 6%;
+    float: left;
+    width: 30%;
+}
+
+
+#custo {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+#informacao {
+    padding-top: 10%;
+    padding-right: 6%;
+    width: 17%;
+    float: right;
+
 }
