@@ -71,43 +71,30 @@ nav:after{
     margin: 0 15px;
 }
 
-#produtos img{
-    width: 35%;
-}
-
-#produtos p{
-    font-size: 1.5em;
-}
-
-#produtos h1{
-    font-size: 3em;
-}
-
-#esquerda {
+.produtos {
     padding-top: 10%;
     text-decoration: none;
-    padding-left: 6%;
+}
+
+#box {
     width: 30%;
     float: left;
-
+    padding-left: 6%;
+}
+#box:hover {
+    background-color: #b0ff8b;
 }
 
-#centro {
-    padding-top: 10%;
-    text-decoration: none;
-    padding-left: 6%;
-    float: left;
+#box a img{
     width: 30%;
 }
 
-
-#custo {
+.produtos custo {
     font-size: 3em;
     font-weight: 500;
 }
 
-#informacao {
-    padding-top: 10%;
+.informacao {
     padding-right: 6%;
     width: 17%;
     float: right;
