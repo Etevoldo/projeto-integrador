@@ -70,13 +70,14 @@ nav:after{
     float:left;
     margin: 0 15px;
 }
-
+/* sessão dos produtos */
 .produtos {
     padding-top: 100px;
     width: 70%;
     float: left;
 }
 
+/* box dos produtos, escalavel*/ 
 #box {
     float: left;
     padding-top: 2%;
@@ -85,7 +86,7 @@ nav:after{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+/*caixa do produto*/
 #p_espaco{
     padding-left: 1em;
     padding-top: 1em;
@@ -95,7 +96,7 @@ nav:after{
     width: calc(30% - 10px); /* adjust as needed */
     margin-bottom: 1%;
 }
-
+/*imagem do produto*/
 #p_espaco img{
     display: block;
     margin-left: auto;
@@ -103,22 +104,23 @@ nav:after{
     width: 90%;
     height: 100px;
 }
-
+/*titulo do produto*/
 #p_espaco a h1{
     text-align: center;
-    text-decoration:none;
+    text-decoration: none !important;
     font-size: 2em;
     color: black;
 }
+/*caixa do produto quando hover*/
 #p_espaco:hover {
     background-color: #b0ff8b;
 	transition: 0.3s;
 }
-
+/*fonte do preco do produto*/
 #custo{
     font-size: 1.5em;
 }
-
+/*sessão da caixa de informação*/
 .informacao {
     padding-top: calc(100px + 2%);
     padding-right: 6%;
