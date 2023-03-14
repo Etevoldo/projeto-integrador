@@ -128,3 +128,26 @@ nav:after{
     width: 18%;
     float: right;
 }
+/*footer*/
+footer {
+    height: 100px;
+    position: relative;
+    margin-top: -100px; /* negative margin equal to footer height */
+    clear: both;
+}
+
+#imagem_site {
+    width: 30%;
+    float: left;
+    padding-left: 30%;
+}
+
+#links {
+    width: 15%;
+    float: right;
+}
+
+#numero_e_email {
+    width: 15%;
+    float: right;
+}
