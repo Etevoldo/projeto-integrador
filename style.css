@@ -72,13 +72,17 @@ nav:after{
 }
 
 .produtos {
-    padding-top: 10%;
+    padding-top: 100px;
 }
 
 #box {
-    width: 30%;
+    width: 60%;
     float: left;
+    padding-top: 2%;
     padding-left: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #p_espaco{
@@ -87,13 +91,16 @@ nav:after{
     padding-right: 1em;
     padding-bottom: 1em;
     font-size: 1em;
+    width: calc(30% - 10px); /* adjust as needed */
+    margin-bottom: 20px;
 }
 
 #p_espaco img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: 200px;
+    height: 100px;
 }
 
 #p_espaco a h1{
