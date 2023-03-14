@@ -73,10 +73,11 @@ nav:after{
 
 .produtos {
     padding-top: 100px;
+    width: 70%;
+    float: left;
 }
 
 #box {
-    width: 60%;
     float: left;
     padding-top: 2%;
     padding-left: 6%;
@@ -92,14 +93,14 @@ nav:after{
     padding-bottom: 1em;
     font-size: 1em;
     width: calc(30% - 10px); /* adjust as needed */
-    margin-bottom: 20px;
+    margin-bottom: 1%;
 }
 
 #p_espaco img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 90%;
     height: 100px;
 }
 
@@ -107,9 +108,11 @@ nav:after{
     text-align: center;
     text-decoration:none;
     font-size: 2em;
+    color: black;
 }
 #p_espaco:hover {
     background-color: #b0ff8b;
+	transition: 0.3s;
 }
 
 #custo{
@@ -117,8 +120,9 @@ nav:after{
 }
 
 .informacao {
+    padding-top: calc(100px + 2%);
     padding-right: 6%;
-    width: 17%;
+    padding-left: 6%;
+    width: 18%;
     float: right;
-
 }
