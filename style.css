@@ -131,9 +131,11 @@ nav:after{
 /*footer*/
 footer {
     height: 100px;
+    background-color: #b0ff8b;
     position: relative;
     margin-top: -100px; /* negative margin equal to footer height */
     clear: both;
+    border-top: 2px solid #8bbf71;
 }
 
 #imagem_site {
@@ -148,6 +150,7 @@ footer {
 }
 
 #numero_e_email {
-    width: 15%;
+    font-weight: 800;
+    width: 20%;
     float: right;
 }
