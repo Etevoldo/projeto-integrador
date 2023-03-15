@@ -136,21 +136,39 @@ footer {
     margin-top: -100px; /* negative margin equal to footer height */
     clear: both;
     border-top: 2px solid #8bbf71;
+    margin-right:auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+#footer_header{
+    float: left;
+    width: 50%;
 }
 
 #imagem_site {
-    width: 30%;
-    float: left;
-    padding-left: 30%;
+    padding-top: 1em;
+    padding-left: 1em;
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #links {
     width: 15%;
+    margin-left: 1em;
+    margin-right: 1em;
     float: right;
 }
 
 #numero_e_email {
     font-weight: 800;
+    margin-left: 1em;
     width: 20%;
     float: right;
 }
