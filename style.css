@@ -52,11 +52,14 @@ nav:after{
     justify-content: space-between;
 }
 
-#logo{
-    width:50px;
-    height:50px;
-    margin-top:25px;
-    
+.imagem_site {
+    padding-top: 1em;
+    padding-left: 1em;
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-container ul{
@@ -87,7 +90,7 @@ nav:after{
     justify-content: space-between;
 }
 /*caixa do produto*/
-#p_espaco{
+.p_espaco{
     padding-left: 1em;
     padding-top: 1em;
     padding-right: 1em;
@@ -97,7 +100,7 @@ nav:after{
     margin-bottom: 1%;
 }
 /*imagem do produto*/
-#p_espaco img{
+.p_espaco img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -105,19 +108,19 @@ nav:after{
     height: 100px;
 }
 /*titulo do produto*/
-#p_espaco a h1{
+.p_espaco a h1{
     text-align: center;
     text-decoration: none !important;
     font-size: 2em;
     color: black;
 }
 /*caixa do produto quando hover*/
-#p_espaco:hover {
+.p_espaco:hover {
     background-color: #b0ff8b;
 	transition: 0.3s;
 }
 /*fonte do preco do produto*/
-#custo{
+.custo{
     font-size: 1.5em;
 }
 /*sessão da caixa de informação*/
@@ -149,15 +152,6 @@ footer {
     width: 50%;
 }
 
-#imagem_site {
-    padding-top: 1em;
-    padding-left: 1em;
-    width: 100px;
-    height: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #links {
     width: 15%;
