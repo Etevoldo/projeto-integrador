@@ -98,6 +98,7 @@ nav:after{
     font-size: 1em;
     width: calc(30% - 10px); /* adjust as needed */
     margin-bottom: 1%;
+    text-decoration: none;
 }
 /*imagem do produto*/
 .p_espaco img{
@@ -108,10 +109,18 @@ nav:after{
     height: 100px;
 }
 /*titulo do produto*/
+.p_espaco a:link{
+    text-decoration: none;
+}
 .p_espaco a h1{
     text-align: center;
-    text-decoration: none !important;
     font-size: 2em;
+    color: black;
+}
+.p_espaco a p{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
     color: black;
 }
 /*caixa do produto quando hover*/
@@ -121,7 +130,7 @@ nav:after{
 }
 /*fonte do preco do produto*/
 .custo{
-    font-size: 1.5em;
+    font-size: 2em !important;
 }
 /*sessão da caixa de informação*/
 .informacao {
@@ -188,7 +197,7 @@ footer {
     width: 100%;
 }
 
-/*Informacoes de compra*/
+/*Informacoes de compra da pagina do produto*/
 .informacoes_de_compra {
     border-style: solid;
     border-width: 2px;
