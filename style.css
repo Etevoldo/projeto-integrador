@@ -78,6 +78,7 @@ nav:after{
     padding-top: 100px;
     width: 70%;
     float: left;
+    min-height: 800px;
 }
 
 /* box dos produtos, escalavel*/ 
@@ -93,7 +94,7 @@ nav:after{
 .p_espaco{
     padding-top: 1em;
     font-size: 1em;
-    width: 14em; /* adjust as needed */
+    width: 14em; /* adjust as need/ed */
     margin-bottom: 1%;
     text-decoration: none;
 }
