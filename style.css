@@ -91,10 +91,7 @@ nav:after{
 }
 /*caixa do produto*/
 .p_espaco{
-    padding-left: 1em;
     padding-top: 1em;
-    padding-right: 1em;
-    padding-bottom: 1em;
     font-size: 1em;
     width: calc(30% - 10px); /* adjust as needed */
     margin-bottom: 1%;
@@ -131,6 +128,8 @@ nav:after{
 /*fonte do preco do produto*/
 .custo{
     font-size: 2em !important;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 /*sessão da caixa de informação*/
 .informacao {
