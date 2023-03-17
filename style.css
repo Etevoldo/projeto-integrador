@@ -93,7 +93,7 @@ nav:after{
 .p_espaco{
     padding-top: 1em;
     font-size: 1em;
-    width: calc(30% - 10px); /* adjust as needed */
+    width: 15em; /* adjust as needed */
     margin-bottom: 1%;
     text-decoration: none;
 }
