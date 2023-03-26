@@ -232,3 +232,28 @@ footer {
     width: 70%;
     height: 3em;
 }
+
+/*pagina quem_somos*/
+.quem_somos {
+    margin-top: calc(100px + 2em);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: calc(100px + 2em);
+}
+
+/*Header do quem somos*/
+.texto_quem_somos h1{
+    text-align: center;
+}
+
+/*bloco de texto*/
+.texto_quem_somos{
+    font-size: 1.2em;
+}
+
+/*imagem do quem somos*/
+.imagem_lado {
+    width: 40%;
+    float: right;
+}
