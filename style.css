@@ -147,7 +147,7 @@ nav:after{
 }
 /*footer*/
 footer {
-    height: 100px;
+    height: 130px;
     background-color: #b0ff8b;
     position: relative;
     margin-top: -100px; /* negative margin equal to footer height */
