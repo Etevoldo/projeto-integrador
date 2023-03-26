@@ -234,7 +234,7 @@ footer {
 }
 
 /*pagina quem_somos*/
-.quem_somos {
+.quem_somos_bloco {
     margin-top: calc(100px + 2em);
     width: 60%;
     margin-left: auto;
@@ -253,7 +253,7 @@ footer {
 }
 
 /*imagem do quem somos*/
-.imagem_lado {
+.texto_quem_somos img{
     width: 40%;
     float: right;
 }
