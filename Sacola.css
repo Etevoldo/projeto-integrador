@@ -1,0 +1,180 @@
+html { 
+    font-family:'Open Sans',sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow-x:hidden;
+}
+
+h1, h2, h3, h4, h5, p span {
+    margin: 0;
+    color:#666;
+}
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+}
+
+/* header */
+
+header {
+    position: relative;
+    top: 0;
+    height:auto; 
+    width: 100%;
+}
+
+/*navbar */
+nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 1px solid #CCC;
+}
+
+nav:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container{
+    max-width: 1200px;
+    position: relative;
+    margin-right:auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.imagem_site {
+    padding-top: 1em;
+    padding-left: 1em;
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-container ul{
+    float: right;
+    height:100px;
+    line-height:100px;
+    margin:0;
+}
+
+.nav-container li{
+    float:left;
+    margin: 0 15px;
+}
+
+/*sacola*/ 
+
+img{
+    max-width: 200px;
+}
+
+main {
+    width:700px;
+	margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top:100px;
+    padding:50px;
+    gap:400px;
+ 
+}
+
+.pagamento{
+    display:flex;
+    flex-direction: column;
+}
+.pix{
+    display:flex;
+    gap:5px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+thead {
+	background-color: #333;
+	color: #fff;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+th:first-child, td:first-child {
+	font-weight: bold;
+}
+
+tfoot {
+	font-weight: bold;
+}
+
+tfoot td:first-child {
+	text-align: right;
+}
+
+button {
+	background-color: #333;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+
+button:hover {
+	background-color: #444;
+}
+
+
+footer {
+    height: 100px;
+    background-color: #b0ff8b;
+    position: relative;
+    //margin-top: -100px; /* negative margin equal to footer height */
+    clear: both;
+    border-top: 2px solid #8bbf71;
+    margin-right:auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+#footer_header{
+    float: left;
+    width: 50%;
+}
+
+
+#links {
+    width: 15%;
+    margin-left: 1em;
+    margin-right: 1em;
+    float: right;
+}
+
+#numero_e_email {
+    font-weight: 800;
+    margin-left: 1em;
+    width: 20%;
+    float: right;
+}
