@@ -53,6 +53,10 @@ nav:after{
     justify-content: space-between;
 }
 
+#divBusca {
+ margin-left: 150px;
+ margin-right: 150px;
+}
 .imagem_site {
     padding-top: 1em;
     padding-left: 1em;
