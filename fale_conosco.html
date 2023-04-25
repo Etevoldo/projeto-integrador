@@ -55,32 +55,25 @@
 						</div>
 					</div>
 					</div>
-					<form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
-						<fieldset>
-							<h3>Formulário de contato</h3>
-							<div class="form-group required">
-							<label class="col-sm-2 control-label" for="input-name">Seu nome</label>
-							<div class="col-sm-10">
-								<input type="text" name="name" value="" id="input-name" class="form-control">
-							</div>
-							</div>
-							<div class="form-group required">
-								<label class="col-sm-2 control-label" for="input-email">Endereço de E-mail</label>
-								<div class="col-sm-10">
-									<input type="text" name="email" value="" id="input-email" class="form-control">
-								</div>
-							</div>
-							<div class="form-group required">
-								<label class="col-sm-2 control-label" for="input-enquiry">Dúvida</label>
-								<div class="col-sm-10">
-									<textarea name="enquiry" rows="3" cols="40" id="input-enquiry" class="form-control"></textarea>
-								</div>
-							</div>
-						</fieldset>
-						<div class="buttons">
-							<div class="pull-right">
-								<input type="button" value="Enviar" onclick="verifyForm();">
-							</div>
+					<form name="form1" method="post", action="grava.jsp">
+						<h1>Nome:</h1>  
+						<input type="text" name="txtNome">  
+						<span id="erroNome"></span>  
+						<br>  
+						<h1>Idade:</h1>  
+						<input type="text" name="txtIdade">  
+						<span id="erroIdade"></span>  
+						<br>  
+						<h1>email:</h1>  
+						<input type="text" name="txtEmail">  
+						<span id="erroEmail"></span>  
+						<br>   
+						<h1>O que tem a nos dizer?</h1>  
+						<textarea name="txtFeedback" rows="6" cols="40"></textarea>  
+						<br>
+						<span id="erroEmail"></span>  
+						<br>   
+						<input type="button" value="Enviar" onclick="verifyForm();">
 						</div>
 					</form>
 				</div>
