@@ -55,23 +55,23 @@
 						</div>
 					</div>
 					</div>
-					<form name="form1" method="post", action="grava.jsp">
+					<form name="form1" method="post" action="grava.jsp">
 						<h1>Nome:</h1>  
 						<input type="text" name="txtNome">  
+						<br>   
 						<span id="erroNome"></span>  
-						<br>  
 						<h1>Idade:</h1>  
 						<input type="text" name="txtIdade">  
+						<br>   
 						<span id="erroIdade"></span>  
-						<br>  
 						<h1>email:</h1>  
 						<input type="text" name="txtEmail">  
-						<span id="erroEmail"></span>  
 						<br>   
+						<span id="erroEmail"></span>  
 						<h1>O que tem a nos dizer?</h1>  
 						<textarea name="txtFeedback" rows="6" cols="40"></textarea>  
 						<br>
-						<span id="erroEmail"></span>  
+						<span id="erroFeedback"></span>  
 						<br>   
 						<input type="button" value="Enviar" onclick="verifyForm();">
 						</div>
@@ -101,6 +101,7 @@
 			<p><img src="icones/email.png">veganmail@da.loja.com</p>
 			</div>
 		</footer>
-		</div>
+		<script src="faleconosco.js"></script>
+	</div>
 	</body>
 </html>
