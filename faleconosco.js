@@ -26,6 +26,6 @@ function verifyForm(){
             "\nPreencha com um feedback";
     }
     if (enviar){
-        document.form1.submit;
+        document.form1.submit();
     }
 }
