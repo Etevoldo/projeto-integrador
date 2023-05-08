@@ -14,7 +14,7 @@ function verifyForm(){
             "\nPreencha com uma idade";
     }
     var email = document.form1.txtEmail.value;
-    if (email.length == 0){
+    if (email.indexOf("@") < 0){
         enviar = false;
         document.querySelector("#erroEmail").textContent =
             "\nPreencha com um email";
