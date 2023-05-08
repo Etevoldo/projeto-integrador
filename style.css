@@ -53,7 +53,7 @@ nav:after{
 }
 
 #divBusca {
- margin-left: 150px;
+ margin-left: 50px;
  margin-right: 150px;
 }
 
@@ -75,8 +75,13 @@ nav:after{
 }
 
 .nav-container li{
+    height: 40px;
     float:left;
     margin: 0 15px;
+}
+
+.nav-container ul li img{
+    width: 30px;
 }
 /* sessão dos produtos */
 .produtos {

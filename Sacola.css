@@ -54,7 +54,7 @@ nav:after{
 }
 
 #divBusca {
- margin-left: 150px;
+ margin-left: 50px;
  margin-right: 150px;
 }
 .imagem_site {
@@ -75,10 +75,14 @@ nav:after{
 }
 
 .nav-container li{
+    height: 40px;
     float:left;
     margin: 0 15px;
 }
 
+.nav-container ul li img{
+    width: 30px;
+}
 /*sacola*/ 
 
 img{
@@ -152,7 +156,6 @@ footer {
     height: 100px;
     background-color: #b0ff8b;
     position: relative;
-    //margin-top: -100px; /* negative margin equal to footer height */
     clear: both;
     border-top: 2px solid #8bbf71;
     margin-right:auto;
