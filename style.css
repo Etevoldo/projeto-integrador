@@ -166,6 +166,9 @@ footer {
     width: 50%;
 }
 
+.erroMsg{
+    color: red;
+}
 
 #links {
     width: 15%;
