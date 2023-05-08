@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Página de Cadastro</title>
-	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+	<link rel="stylesheet" type="text/css" href="cadastro2.css">
     <!--Feito por Gabriel-->
 </head>
 <body>
@@ -34,18 +34,30 @@
             </nav>
         </header>
 	<div class="container">
-		<form>
+		<form name="form1" method="post" action="grava.jsp">
 			<h1>Cadastro</h1>
 			<label for="username"><b>Nome de usuário</b></label>
-			<input type="text" placeholder="Digite seu nome de usuário" name="username" required>
+            <input type="text" placeholder="Digite o seu nome" name="nome" required>
+            <span id="erroNome"></span>
+            <br>
+
+            <label for="cpf"><b>CPF</b></label>
+			<input type="text" placeholder="Digite o seu CPF" name="cpf" required>
+            <span id="erroCpf"></span>
+            <br>
 
 			<label for="email"><b>Email</b></label>
 			<input type="email" placeholder="Digite seu email" name="email" required>
+            <span id="erroEmail"></span>
+            <br>
 
-			<label for="psw"><b>Senha</b></label>
-			<input type="password" placeholder="Digite sua senha" name="psw" required>
+			<label for="senha"><b>Senha</b></label>
+			<input type="password" placeholder="Digite sua senha" name="senha" required>
+            <span id="erroSenha"></span>
+            <br>
 
-			<button type="submit" class="registerbtn">Entrar</button>
+			<button type="submit"  class="registerbtn"
+            onclick="verificar()">Entrar</button>
 		</form>
         </div>
     
@@ -71,5 +83,8 @@
                 <p><img src="icones/email.png">veganmail@da.loja.com</p>
             </div>
         </footer>
+        <script src="Cadastro2.js"></script>
 </body>
 </html>
+
+
