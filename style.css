@@ -265,3 +265,19 @@ footer {
     width: 40%;
     float: right;
 }
+
+.forms_privado {
+    margin-top: 120px;
+    height: 100vh;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.forms_campo{
+    width: 70%;
+    height: 30%;
+}
+
+.forms_campo form{
+    margin-top: 3em;
+}
