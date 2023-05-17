@@ -6,7 +6,7 @@
 	String vemail = request.getParameter("txtEmail");
 	String vmensagem = request.getParameter("txtFeedback");
  
-	String banco = "aula_teste";
+	String banco = "projeto_integrador";
 	String endereco = "jdbc:mysql://localhost:3306/" + banco;
 	String usuario = "root";
 	String senha = "";
@@ -16,7 +16,7 @@
 	Connection conexao;
 	conexao = DriverManager.getConnection(endereco, usuario, senha);
 
-	String sql = "INSERT INTO mensagem (nome, idade, email, mensagem) VALUES (?,?,?,?)";
+	String sql = "INSERT INTO feedback (nome, idade, email, mensagem) VALUES (?,?,?,?)";
 
 	PreparedStatement stm = conexao.prepareStatement(sql);
 	stm.setString(1, vnome);
