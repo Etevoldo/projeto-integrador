@@ -44,69 +44,161 @@
             </nav>
         </header>
     <main>
-        <div class="pagamento">
-            <div>
-                <table>
-                    <thead>
+        <div class="lista_compras">
+            <form name="pedido" method="post" action="sacola.jsp">
+                <div class="produtos_lista">
+                    <table>
                         <tr>
-                            <th>Produto</th>
-                            <th>Preço</th>
-                            <th>Quantidade</th>
-                            <th>Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Produto1</td>
-                            <td>R$ XX,XX</td>
-                            <td>2</td>
-                            <td>R$ XX,XX</td>
-                        </tr>
-                        <tr>
-                            <td>produto2</td>
-                            <td>R$ XX,XX</td>
-                            <td>1</td>
-                            <td>R$ XX,XX</td>
+                            <td>
+                                <img src="produtos/1.png" alt="">
+                            </td>
+                            <td>
+                                OVO DE CHOCOLATE CROCANTE FRUTAS VERMELHAS 300g
+                            </td>
+                            <td>
+                                R$: 89,99
+                            </td>
+                            <td>
+                                <input type="number" name="1">
+                            </td>
                         </tr>
                         <tr>
-                            <td>Produto3</td>
-                            <td>R$ XX,XX</td>
-                            <td>1</td>
-                            <td>R$ XX,XX</td>
+                            <td>
+                                <img src="produtos/2.png" alt="">
+                            </td>
+                            <td>
+                                OVO DE CHOCOLATE CHOCO AVELÃ WAFER 500g
+                            </td>
+                            <td>
+                                R$: 75,59
+                            </td>
+                            <td>
+                                <input type="number" name="2">
+                            </td>
                         </tr>
                         <tr>
-                            <td>Produto4</td>
-                            <td>R$ XX,XX</td>
-                            <td>1</td>
-                            <td>R$ XX,XX</td>
+                            <td>
+                                <img src="produtos/3.png" alt="">
+                            </td>
+                            <td>
+                                OVO DE CHOCOLATE AO LEITE de SOJA 250G
+                            </td>
+                            <td>
+                                R$: 100,00
+                            </td>
+                            <td>
+                                <input type="number" name="3">
+                            </td>
                         </tr>
-                    </tbody>
-                    <tfoot>
                         <tr>
-                            <td colspan="3">Total:</td>
-                            <td>R$ xx,xx</td>
+                            <td>
+                                <img src="produtos/4.png" alt="">
+                            </td>
+                            <td>
+                                OVO DE CHOCOLATE CROCANTE 250G
+                            </td>
+                            <td>
+                                R$: 87,00
+                            </td>
+                            <td>
+                                <input type="number" name="4">
+                            </td>
                         </tr>
-                    </tfoot>
-                </table>
-               
-            </div>
-            <div class="pix">
-                <input type="checkbox">
-                <p>Pagar com Pix</p>
-            </div>
-            <div class="pix">
-                <input type="checkbox">
-                <p>Pagar com Dinheiro</p>
-            </div>
-            <button>Finalizar Compra</button>
+                        <tr>
+                            <td>
+                                <img src="produtos/5.png" alt="">
+                            </td>
+                            <td>
+                                DC PAO DE QUEIJO CATUPIRY 360G
+                            </td>
+                            <td>
+                                R$: 39,78
+                            </td>
+                            <td>
+                                <input type="number" name="5">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="produtos/6.png" alt="">
+                            </td>
+                            <td>
+                                DC CROQUETE CARNE 420G
+                            </td>
+                            <td>
+                                R$: 54,45
+                            </td>
+                            <td>
+                                <input type="number" name="6">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="produtos/7.png" alt="">
+                            </td>
+                            <td>
+                                DC COXINHA DESFIADA 460G
+                            </td>
+                            <td>
+                                R$: 27,99
+                            </td>
+                            <td>
+                                <input type="number" name="7">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="produtos/8.png" alt="">
+                            </td>
+                            <td>
+                                DC RISSOLES PALMITO 450G
+                            </td>
+                            <td>
+                                R$: 40,99
+                            </td>
+                            <td>
+                                <input type="number" name="8">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="produtos/9.png" alt="">
+                            </td>
+                            <td>
+                                DC RISSOLES PALMITO 450G
+                            </td>
+                            <td>
+                                R$: 75,00
+                            </td>
+                            <td>
+                                <input type="number" name="9">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="produtos/10.png" alt="">
+                            </td>
+                            <td>
+                                TORTA PALMITO REDONDA 650G
+                            </td>
+                            <td>
+                                R$: 80,99
+                            </td>
+                            <td>
+                                <input type="number" name="10">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="enviar">
+                    <h1>Insira seu CPF</h1>
+                    <input type="text" name="cpf">
+                    <input type="button" value="Fazer pedido" onclick="verificarpedido();">
+                    <br>
+                    <span id="erroCPF" style="color:red"></span>  
+                </div>
+            </form>
         </div>
-        <div>
-            <img class="produto1" src="imagens/produto.jpg" alt="produto1">
-            <img class="produto2" src="imagens/produto.jpg" alt="produto2">
-            <img class="produto3" src="imagens/produto.jpg" alt="produto3">
-            <img class="produto4" src="imagens/produto.jpg" alt="produto4">
-        </div>
-
     </main>
         <footer>
             <header id="footer_header">
@@ -130,6 +222,17 @@
                 <p><img src="icones/email.png">veganmail@da.loja.com</p>
             </div>
         </footer>
+        <script>
+            function verificarpedido(){
+                var enviar = true;
+                var e = document.pedido.cpf.value;
+                if (e.length == 0)
+                    enviar = false;
+                if (enviar)
+                    document.pedido.submit();
+                else
+                    document.getElementById("erroCPF").textContent = "Informe-nos o seu CPF"
+            }
+        </script>
 </body>
-
 </html>
