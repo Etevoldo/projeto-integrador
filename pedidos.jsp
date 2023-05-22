@@ -97,7 +97,7 @@
     PreparedStatement itens_pedido_stm = conexao.prepareStatement(itens_pedido) ;
     ResultSet dados = itens_pedido_stm.executeQuery() ;
 
-	int i = 0;
+	int pedido_codigo, pedido_codigo_check;
     while (pedidos_dados.next()) 
     { 
 		out.print("<table>");
@@ -121,8 +121,12 @@
 				out.print("<th>Quantidade</th>");
 		while (dados.next())
 		{
-			if (Integer.valueOf(dados.getString("Codigo do pedido")) != Integer.valueOf(pedidos_dados.getString("cod_pedido")))
+            pedido_codigo = Integer.valueOf(dados.getString("Codigo do pedido"));
+            pedido_codigo_check = Integer.valueOf(pedidos_dados.getString("cod_pedido"));
+			if (pedido_codigo != pedido_codigo_check){
+                dados.previous();
 				break;
+            }
 			out.print( "<tr>" );
 				out.print("<td>") ;
 					out.print(  dados.getString("Codigo do produto")  ) ;
